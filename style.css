@@ -1,0 +1,226 @@
+body {
+  background-image: url("https://i.ibb.co/kV7Z1p4/YKP9-Zmi-PZ0-Ys-Redp-Vwr142x-Asf-SS14-Sci-Rhqk-J-f-Qi-Q2ja58h5-Q-0-FL7-Uaiq-Sp-Li-R4f-Yf0g-Ac-ME1-Ck-X1esz4p-L8-L4z-Z5md-ASr-Cb-JIq-NZx-6-K65co-PLixnm-Mot-Kinqa-XJQsf1tw-w600-h315-p-k.jpg");
+}
+
+.container {
+  background-color: transparent;
+  margin-right: 5%;
+  margin-left: 5%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.header {
+  background-color: #e64c45;
+	display:block;
+	margin: auto;
+}
+
+#header {
+margin:auto;
+display: flex;
+align-items: center;
+}
+
+h2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2rem;
+  background-color: #e64c45
+}
+
+hr {
+  width: 50%;
+}
+
+.social {
+	background-color: transparent;
+	height: 2rem;
+}
+
+.nav {
+  background-color: #9068be;
+  height: 2rem;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.nav-link {
+  font-family: "Amatic SC", cursive;
+  color: #1a1a1d;
+}
+
+a {
+  font-family: "Amatic SC", cursive;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: white;
+}
+
+#performance {
+  display: flex;
+}
+
+.card {
+  width: 30rem;
+  height: 15rem;
+  background-color: #eeddda;
+  flex: 1;
+	overflow: scroll;
+
+  margin-left: 1rem;
+  margin-right: 1rem;
+  box-shadow: 0.2rem 0.2rem 0.2rem;
+}
+
+.card h3 {
+  font-family: "Amatic SC", cursive;
+  text-align: center;
+  font-size: 2.1rem;
+  font-weight: 600;
+  color: #1a1a1d;
+}
+
+.card p {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1rem;
+  text-align: justify;
+  padding: 1rem;
+}
+
+.section #about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+embed {
+  display: block;
+  margin: 0 auto;
+}
+
+.text-zone {
+  background-color: #eeddda;
+}
+.text-zone p {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1rem;
+  text-align: justify;
+  padding: 1rem;
+}
+
+.section #prices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  background-color: #eeddda;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: "Amatic SC";
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+thead {
+  background-color: white;
+}
+
+.contact {
+	display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+form{
+	width: 100%;
+}
+
+.field {
+  height: 72px;
+
+  padding-top: 16px;
+  padding-right: 16px;
+  padding-bottom: 8px;
+  padding-left: 0;
+}
+
+.field label {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+	background-color: #e64c45;
+}
+
+.field input {
+  width: 80%;
+  padding: 8px 0;
+  line-height: 30px;
+
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1rem;
+
+  background-color: #eeddda;
+  border: none;
+}
+
+.message{
+	display: flex;
+	margin:auto;
+}
+
+textarea {
+	width: 100%;
+	background-color: #eeddda;
+  padding: 8px 0;
+	font-size: 1rem;
+  line-height: 1.5;
+  border: none;
+}
+
+.button{
+	background-color: #9068be;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+footer {
+  background-color: #9068be;
+  color: #1a1a1d;
+
+  font-family: "Amatic SC", cursive;
+  font-size: 1em;
+  text-align: center;
+
+  width: 100%;
+  margin: 2rem;
+  padding-bottom: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+footer #link {
+  color: white;
+}
